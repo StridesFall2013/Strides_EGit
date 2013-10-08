@@ -25,6 +25,7 @@ public class HomePageActivity extends Activity{
 	public void newStrideClicked (View v) {
 		Intent myIntent = new Intent(v.getContext(), AddStrideActivity.class);
 		startActivityForResult(myIntent, 0);
+		
 	}
 	
 	public void findStriderClicked (View v) {

@@ -22,7 +22,7 @@ public class SignInActivity extends Activity {
 	}
 	
 	public void createBtnClicked(View v) {
-		Intent myIntent = new Intent(v.getContext(), CreateActivity.class);
+		Intent myIntent = new Intent(v.getContext(), CreateAccountActivity.class);
 		startActivityForResult(myIntent, 0);
 	}
 	
