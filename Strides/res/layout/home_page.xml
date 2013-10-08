@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- Use a List view like the one in the book on page: 191
+    	 It allows you to "check" which ones to view 
+    	 We could have a static array of stride objects that cumulates
+    	 all the strides the user has in the database -->
+    
+    <Button
+        android:id="@+id/btn_createStride"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="41dp"
+        android:onClick="newStrideClicked"
+        android:text="@string/createstride_btn_lbl" />
+
+    <Button
+        android:id="@+id/btn_findStrider"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_alignBaseline="@+id/btn_createStride"
+        android:layout_alignBottom="@+id/btn_createStride"
+        android:layout_alignParentRight="true"
+        android:onClick="findStriderClicked"
+        android:text="@string/findstrider_btn_lbl" />
+
+</RelativeLayout>

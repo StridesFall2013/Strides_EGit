@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Strides lables -->
+    <string name="app_name">Strides</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Welcome to Strides!</string>
+    <string name="empty_string"> </string>
+    
+    <!-- Labels -->
+    <string name="add_stride_lbl">Add Stride</string>
+    <string name="done_btn_lbl">Done</string>
+    <string name="monthly_btn_lbl">Monthly</string>
+    <string name="weekly_btn_lbl">Weekly</string>
+    <string name="yearly_btn_lbl">Yearly</string>
+    <string name="info_btn_lbl">Info</string>
+    <string name="start_btn_lbl">Start Here</string>
+    <string name="back_btn_lbl">Go Back</string>
+    <string name="findstrider_btn_lbl">Find Strider</string>
+    <string name="addstrider_btn_lbl">Add Strider</string>
+    <string name="createstride_btn_lbl">New Stride</string>
+    <string name="singin_btn_lbl">sign in</string>
+    <string name="create_btn_lbl">create account</string>
+    <string name="rememberme_btn_lbl">remember me</string>
+    <string name="Username_lbl">Username</string>
+    <string name="Password_lbl">Password</string>
+    <string name="conact_info_lbl">Contact Information:</string>
+    <string name="StriderName_lbl">Strider name</string>
+    <string name="strides_lgo">Strides Logo</string>
+    <string name="create_account_lbl">Create New Account</string>
+    <string name="email_lbl">Email</string>
+    <string name="agreement_lbl">I hereby register my handset\nand confirm that I accept the\nterms and conditions of the\nStrides Mobile Services.</string>
+    
+    <!-- Banners -->
+    <string name="info_banner">INFO PAGE</string>
+    <string name="signin_banner">SIGN IN</string>
+    
+    <!-- Main Text -->
+    <string name="info_beginning">
+        With this app you can set personal goals called \'Strides\' and share them with friends.
+       	If your friend takes the stride with you, you can keep track of each others Strides.
+    </string>
+    <string name="info_body"> 
+        Don\'t slow down your strides, though! Your friends can send you a \'Check\' saying:
+        \"Hey, keep it up slacker!\" showing you their progress; keeping you motivated.
+    </string>
+    <string name="version_num">Version: 1.0.0001</string>
+    <string name="emails">pjn@mail.usf.edu\nalejandra1@mail.usf.edu\nzblizzard@mail.usf.edu</string>
+    
+    
+    
+
+</resources>

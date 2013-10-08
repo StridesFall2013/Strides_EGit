@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tv_createAcount_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="@string/create_account_lbl"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/password_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_centerVertical="true"
+        android:text="@string/Password_lbl" />
+
+    <EditText
+        android:id="@+id/tb_StriderName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/password_lbl"
+        android:layout_alignLeft="@+id/password_lbl"
+        android:inputType="text"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/password_lbl"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tb_StriderName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:ems="10"
+        android:inputType="textEmailAddress" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/email_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText1"
+        android:layout_toLeftOf="@+id/btn_create_account"
+        android:text="@string/email_lbl" />
+
+    <TextView
+        android:id="@+id/striderName_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tb_StriderName"
+        android:layout_alignLeft="@+id/tb_StriderName"
+        android:text="@string/StriderName_lbl" />
+
+    <TextView
+        android:id="@+id/agreement_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_create_account"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="16dp"
+        android:text="@string/agreement_lbl" />
+
+    <Button
+        android:id="@+id/btn_create_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/agreement_lbl"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="@string/create_account_lbl" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/agreement_lbl"
+        android:layout_alignBottom="@+id/agreement_lbl"
+        android:layout_toLeftOf="@+id/agreement_lbl" />
+
+</RelativeLayout>
