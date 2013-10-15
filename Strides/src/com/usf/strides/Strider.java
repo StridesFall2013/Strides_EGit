@@ -66,4 +66,6 @@ public class Strider {
 	private int           strider_id;	    // Strider ID
 	private List<String>  strides_list;	    // List of strides the user has in their bank 
 	private List<Strider> friends_list;		// Friend list of specific strider
+	
+	// TODO: need a strider_picture property to hold the striders profile picture
 }

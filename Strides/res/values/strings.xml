@@ -8,6 +8,10 @@
     <string name="empty_string"> </string>
     
     <!-- Labels -->
+    <string name="find_strider_lbl">Find Striders</string>
+    <string name="search_strider_name_lbl">Strider\'s Name</string>
+    <string name="search_specific_btn_lbl">Search Specific</string>
+    <string name="search_all_btn_lbl">Search All</string>
     <string name="add_stride_lbl">Add Stride</string>
     <string name="done_btn_lbl">Done</string>
     <string name="monthly_btn_lbl">Monthly</string>
