@@ -12,4 +12,5 @@ public class AddStrideActivity extends Activity {
 	
 	// TODO: add the SQLLite stuff here, look up here:
 	// C:\Users\Zach\Desktop\School\2012-13\13 Fall\SW Dev for Mobile Devices\Notes\Storage.pdf
+	// starts on page 6
 }

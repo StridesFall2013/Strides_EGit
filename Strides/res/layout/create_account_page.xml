@@ -84,6 +84,7 @@
         android:layout_below="@+id/agreement_lbl"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="19dp"
+        android:onClick="createAccountClicked"
         android:text="@string/create_account_lbl" />
 
     <CheckBox
